@@ -48,7 +48,9 @@ function buttonShrink () {
 }
 
 function showChatbox(event) {
-  event.stopPropagation();
+  if (event) {
+    event.stopPropagation();
+  }
   chatbox.classList.toggle('show');
 }
 
@@ -59,3 +61,6 @@ function hideChatbox (event) {
       chatbox.classList.remove('show');
     }
 }
+
+
+setTimeout( showChatbox, 10000);
