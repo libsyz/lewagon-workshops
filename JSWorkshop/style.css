@@ -198,15 +198,22 @@ input:focus {
 
 /* Event triggered classes */
 
+/* Normal Buttons */
 .highlighted {
   border: #D23333 solid 1px;
   background-color: #D23333;
 }
 
+/* Chat Button */
+
 .bigger {
   transform: scale(1.1);
 }
 
+/* Chatbox */
+
 .show {
   opacity: 1;
 }
+
+
